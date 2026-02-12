@@ -1,0 +1,20 @@
+@WebApplication1_HostAddress = https://localhost:7055
+
+GET {{WebApplication1_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+GET {{WebApplication1_HostAddress}}/api/Employees
+Accept: application/json
+
+###
+POST {{WebApplication1_HostAddress}}/api/Employees
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "Nishant",
+  "email": "3006Nish@gmail.com",
+  "phone": "9999999999"
+}
